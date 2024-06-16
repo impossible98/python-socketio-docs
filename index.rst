@@ -12,6 +12,7 @@ Welcome to python-socketio's documentation!
 
    docs/intro
    docs/client
+   docs/server
 
 Indices and tables
 ==================
