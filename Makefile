@@ -16,7 +16,7 @@ build: version
 deploy: build
 	netlify deploy --prod
 # 启动开发服务器
-dev:
+dev: build
 	python -m http.server --directory ./_build/html/ 8080
 # 安装环境
 env:
