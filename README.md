@@ -1,1 +1,13 @@
 # python-socketio Docs
+
+## Development
+
+```bash
+make dev
+```
+
+## Build
+
+```bash
+make build
+```
