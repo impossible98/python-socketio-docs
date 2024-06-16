@@ -10,7 +10,7 @@ Welcome to python-socketio's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   docs/intro
 
 Indices and tables
 ==================

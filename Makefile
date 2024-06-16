@@ -15,6 +15,9 @@ build: version
 # 部署项目
 deploy: build
 	netlify deploy --prod
+# 启动开发服务器
+dev:
+	python -m http.server --directory ./_build/html/ 8080
 # 安装环境
 env:
 	asdf install
