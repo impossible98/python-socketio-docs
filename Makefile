@@ -18,3 +18,7 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+# 确保依赖是最新的
+install: version
+	yarn install --frozen-lockfile
+	npm install --global netlify-cli@16.0.0-alpha.0

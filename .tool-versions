@@ -1,2 +1,4 @@
 python 3.11.2
 pdm 2.2.1
+nodejs 18.19.0
+yarn 1.22.22
